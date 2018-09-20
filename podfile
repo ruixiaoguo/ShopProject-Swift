@@ -1,0 +1,19 @@
+platform :ios, '10.0'
+target “ShopProject-Swift” do
+
+pod 'Moya'
+pod 'RxSwift'
+pod 'SwiftyJSON'
+pod 'Kingfisher'
+pod 'SwiftyUserDefaults'
+pod 'NVActivityIndicatorView'
+pod 'DGElasticPullToRefresh'
+pod 'SnapKit'
+pod 'SDAutoLayout'
+pod 'SwiftFCXRefresh'
+pod 'HandyJSON'
+pod 'SwiftProgressHUD'
+pod 'MonkeyKing'
+
+# use_framework !
+end
