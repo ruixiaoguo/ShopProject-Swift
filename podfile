@@ -14,6 +14,7 @@ pod 'SwiftFCXRefresh'
 pod 'HandyJSON'
 pod 'SwiftProgressHUD'
 pod 'MonkeyKing'
+pod 'JWNetAutoCache'
 
 # use_framework !
 end

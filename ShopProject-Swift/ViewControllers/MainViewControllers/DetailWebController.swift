@@ -15,8 +15,16 @@ class DetailWebController: BaseHtmlController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        URLProtocol.wk_registerScheme("http")
+        URLProtocol.wk_registerScheme("https")
+        JWCacheURLProtocol.startListeningNetWorking()
         self.leftView.isHidden = false
         self.startLoadWithTitle(title: self.titleStr!, url: self.urlString!)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        JWCacheURLProtocol.cancelListeningNetWorking()
     }
     
     override func backToPrevious() {

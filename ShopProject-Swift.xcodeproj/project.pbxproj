@@ -19,7 +19,6 @@
 		21A2B8012147989B0053D944 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B8002147989B0053D944 /* MyViewController.swift */; };
 		21A2B80321479A740053D944 /* MainDetilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B80221479A730053D944 /* MainDetilController.swift */; };
 		21A2B8052147A0A30053D944 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B8042147A0A30053D944 /* BaseNavigationController.swift */; };
-		21A2B8082147A7D50053D944 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B8072147A7D50053D944 /* NetWorkManager.swift */; };
 		21A2B80A21489D8C0053D944 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B80921489D8C0053D944 /* NetworkRequest.swift */; };
 		21A2B80E2148B0A40053D944 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B80D2148B0A40053D944 /* DetailModel.swift */; };
 		21A2B8102148DEA90053D944 /* MainDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A2B80F2148DEA90053D944 /* MainDetailCell.swift */; };
@@ -38,6 +37,7 @@
 		21B74E4E214A5B2A0083B5BC /* UIBarButtonItem+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B74E46214A5B2A0083B5BC /* UIBarButtonItem+Extesion.swift */; };
 		21B74E50214A5C880083B5BC /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B74E4F214A5C880083B5BC /* PublishViewController.swift */; };
 		21B74E57214A5F350083B5BC /* PublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B74E56214A5F350083B5BC /* PublishViewController.xib */; };
+		21CCBB06216EFA3100078426 /* NSURLProtocol+WKWebVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CCBB04216EFA3100078426 /* NSURLProtocol+WKWebVIew.m */; };
 		21FF923F213E784700EF102C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF923E213E784700EF102C /* AppDelegate.swift */; };
 		21FF9244213E784700EF102C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FF9242213E784700EF102C /* Main.storyboard */; };
 		21FF9246213E784800EF102C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FF9245213E784800EF102C /* Assets.xcassets */; };
@@ -60,7 +60,6 @@
 		21A2B8002147989B0053D944 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		21A2B80221479A730053D944 /* MainDetilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetilController.swift; sourceTree = "<group>"; };
 		21A2B8042147A0A30053D944 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		21A2B8072147A7D50053D944 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		21A2B80921489D8C0053D944 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		21A2B80D2148B0A40053D944 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 		21A2B80F2148DEA90053D944 /* MainDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetailCell.swift; sourceTree = "<group>"; };
@@ -79,6 +78,9 @@
 		21B74E46214A5B2A0083B5BC /* UIBarButtonItem+Extesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extesion.swift"; sourceTree = "<group>"; };
 		21B74E4F214A5C880083B5BC /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
 		21B74E56214A5F350083B5BC /* PublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishViewController.xib; sourceTree = "<group>"; };
+		21CCBB00216EF5BD00078426 /* ShopProject-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShopProject-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		21CCBB04216EFA3100078426 /* NSURLProtocol+WKWebVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WKWebVIew.m"; sourceTree = "<group>"; };
+		21CCBB05216EFA3100078426 /* NSURLProtocol+WKWebVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WKWebVIew.h"; sourceTree = "<group>"; };
 		21FF923B213E784700EF102C /* ShopProject-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShopProject-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FF923E213E784700EF102C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FF9243213E784700EF102C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		21A2B7E0214760D60053D944 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				21CCBB05216EFA3100078426 /* NSURLProtocol+WKWebVIew.h */,
+				21CCBB04216EFA3100078426 /* NSURLProtocol+WKWebVIew.m */,
 				21B74E3E214A5B2A0083B5BC /* Category */,
 				21A2B7E1214760D60053D944 /* WRCycleScrollView */,
 			);
@@ -191,7 +195,6 @@
 		21A2B8062147A7870053D944 /* RequestManager */ = {
 			isa = PBXGroup;
 			children = (
-				21A2B8072147A7D50053D944 /* NetWorkManager.swift */,
 				21A2B80921489D8C0053D944 /* NetworkRequest.swift */,
 			);
 			path = RequestManager;
@@ -286,6 +289,7 @@
 				21FF9245213E784800EF102C /* Assets.xcassets */,
 				21FF9247213E784800EF102C /* LaunchScreen.storyboard */,
 				21FF924A213E784800EF102C /* Info.plist */,
+				21CCBB00216EF5BD00078426 /* ShopProject-Swift-Bridging-Header.h */,
 			);
 			path = "ShopProject-Swift";
 			sourceTree = "<group>";
@@ -362,6 +366,7 @@
 				TargetAttributes = {
 					21FF923A213E784700EF102C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -442,10 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CCBB06216EFA3100078426 /* NSURLProtocol+WKWebVIew.m in Sources */,
 				21A2B7E7214760D60053D944 /* WRPageControl.swift in Sources */,
 				21A2B7F6214797470053D944 /* BaseController.swift in Sources */,
 				21A2B7E8214760D60053D944 /* WRCycleScrollView.swift in Sources */,
-				21A2B8082147A7D50053D944 /* NetWorkManager.swift in Sources */,
 				21B74E39214A43A30083B5BC /* MyHeadView.swift in Sources */,
 				21A2B80321479A740053D944 /* MainDetilController.swift in Sources */,
 				21B74E36214A36F00083B5BC /* MyCell.swift in Sources */,
@@ -619,6 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7B79DUQBF7;
 				GCC_PREFIX_HEADER = "";
@@ -630,6 +636,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fh.ShopProject-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShopProject-Swift/ShopProject-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -641,6 +649,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7B79DUQBF7;
 				GCC_PREFIX_HEADER = "";
@@ -652,6 +661,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fh.ShopProject-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShopProject-Swift/ShopProject-Swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
